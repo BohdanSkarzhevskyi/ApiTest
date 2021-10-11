@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  api:
+    image: apitest-bohdan
+    container_name: apitest-bohdan
+    build:
+      context: .
+      dockerfile: src/ApiTest.Api/Dockerfile
